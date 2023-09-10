@@ -105,15 +105,19 @@ function Alert(){
             });
           }   
     }
+
+    useEffect(() => {
+        Install()
+    },[])
     return(
         <Layout>
             <Container>
                 <Box onOff={onOff}>
                     <div><Download_icon />다운로드 하시겠습니까?</div>
-                    <BTN>
+                    {/* <BTN>
                         <div onClick={() => Install()}>확인</div>
                         <div onClick={()=> cancel()}>취소</div>
-                    </BTN>
+                    </BTN> */}
                 </Box>
             </Container>
         </Layout>
