@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import Pagination from "../../component/pagination/Pagination";
+
 
 
 function Sample1(){

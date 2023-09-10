@@ -1,8 +1,9 @@
+
 import UseSetObj from "../../../hook/setObject";
 import "../input.css"
 
 
-function Text({id, value, onChange, label}){
+function Number({id, value, onChange, label}){
     const {setUseObj} = UseSetObj();
 
     const onChangeText = ( value ) => {
@@ -12,7 +13,7 @@ function Text({id, value, onChange, label}){
     return(
         <div className="box">
             <input 
-                type="text"
+                type="Number"
                 id={id}
                 value={value}
                 onChange={(e) => onChangeText(e.target.value)} 
@@ -24,4 +25,4 @@ function Text({id, value, onChange, label}){
     )
 }
 
-export default Text;
+export default Number;

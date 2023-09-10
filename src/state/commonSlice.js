@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 let initialState = {
-    "path": "/menu1",
+    "path": "/user",
 }
 
 
@@ -9,7 +9,7 @@ const slice = createSlice({
     name: "path",
     initialState,
     reducers:{
-        add:(state, action) => {
+        path:(state, action) => {
             state.path = action.payload.path
         }
     }
@@ -17,6 +17,6 @@ const slice = createSlice({
 
 
 
-export const { add } = slice.actions;
+export const { path } = slice.actions;
 
 export default slice.reducer;

@@ -1,0 +1,33 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    width: 80%;
+}
+.inputField { 
+    background-color: transparent;
+    height: 30px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.23);
+    border-radius: 7px;
+}
+.inputField~span{
+    background-color: white;
+    position: absolute;
+    transition: all ease-in-out 0.5s;
+}
+.inputField:hover {
+    border: 2px solid black;
+}
+.inputField:focus-visible  {
+    outline: none!important;
+    border: 2px solid #1976d2;
+}
+.inputField:focus ~ span {
+    font-size: 5px;
+    transition: all ease-in-out 0.5s;
+}
+
+.box > div{
+    width: 100%;
+}
