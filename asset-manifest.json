@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AssetIncrease/static/css/main.da9b1982.css",
-    "main.js": "/AssetIncrease/static/js/main.03eb62ee.js",
+    "main.js": "/AssetIncrease/static/js/main.e4b42cde.js",
     "index.html": "/AssetIncrease/index.html",
     "main.da9b1982.css.map": "/AssetIncrease/static/css/main.da9b1982.css.map",
-    "main.03eb62ee.js.map": "/AssetIncrease/static/js/main.03eb62ee.js.map"
+    "main.e4b42cde.js.map": "/AssetIncrease/static/js/main.e4b42cde.js.map"
   },
   "entrypoints": [
     "static/css/main.da9b1982.css",
-    "static/js/main.03eb62ee.js"
+    "static/js/main.e4b42cde.js"
   ]
 }
