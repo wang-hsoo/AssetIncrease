@@ -58,7 +58,7 @@ function Left(){
             "path":"/AssetIncrease/Download",
             "route": "Download",
             "icon" : <Download_icon />
-        },
+        }
         // {
         //     "path" : "/menu1",
         //     "route" : "menu1"

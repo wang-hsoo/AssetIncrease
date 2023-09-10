@@ -11,7 +11,7 @@ const DomPath = [
     {"path": "/menu2","dom": <Sample2 />},
     {"path": "/AssetIncrease/user", "dom" : <User />},
     {"path": "/AssetIncrease/increase", "dom" : <Increase />},
-    {"path": "/AssetIncrease/Download", "dom" : <Alert />},
+    {"path": "/AssetIncrease/Download", "dom" : <Alert />}
 ]
 
 const Container = styled.div`
