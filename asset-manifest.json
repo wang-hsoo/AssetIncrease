@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/assetIncrease/static/css/main.da9b1982.css",
+    "main.js": "/assetIncrease/static/js/main.7d259fbb.js",
+    "index.html": "/assetIncrease/index.html",
+    "main.da9b1982.css.map": "/assetIncrease/static/css/main.da9b1982.css.map",
+    "main.7d259fbb.js.map": "/assetIncrease/static/js/main.7d259fbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da9b1982.css",
+    "static/js/main.7d259fbb.js"
+  ]
+}
