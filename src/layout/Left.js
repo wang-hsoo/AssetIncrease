@@ -44,12 +44,12 @@ const Li = styled.li`
 function Left(){
     const Menu = [
         {
-            "path": "/user",
+            "path": "/AssetIncrease/user",
             "route" : "MY INFO",
             "icon" : <User_icon />
         },
         {
-            "path":"/increase",
+            "path":"/AssetIncrease/increase",
             "route": "inCrease",
             "icon" : <Money_icon />
         }

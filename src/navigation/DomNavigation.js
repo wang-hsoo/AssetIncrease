@@ -8,8 +8,8 @@ import Increase from "../pages/Increase/Increase";
 const DomPath = [
     {"path": "/menu1","dom": <Sample1 />},
     {"path": "/menu2","dom": <Sample2 />},
-    {"path": "/user", "dom" : <User />},
-    {"path": "/increase", "dom" : <Increase />},
+    {"path": "/AssetIncrease/user", "dom" : <User />},
+    {"path": "/AssetIncrease/increase", "dom" : <Increase />},
 ]
 
 const Container = styled.div`

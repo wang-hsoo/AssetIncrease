@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 let initialState = {
-    "path": "/user",
+    "path": "/AssetIncrease/user",
 }
 
 
