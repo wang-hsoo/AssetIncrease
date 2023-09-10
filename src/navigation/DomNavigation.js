@@ -4,12 +4,14 @@ import Sample2 from "../pages/sample/Sample2";
 import Sample1 from "../pages/sample/Smaple1";
 import { useSelector } from 'react-redux';
 import Increase from "../pages/Increase/Increase";
+import Alert from "../component/Alert/Alert";
 
 const DomPath = [
     {"path": "/menu1","dom": <Sample1 />},
     {"path": "/menu2","dom": <Sample2 />},
     {"path": "/AssetIncrease/user", "dom" : <User />},
     {"path": "/AssetIncrease/increase", "dom" : <Increase />},
+    {"path": "/AssetIncrease/Download", "dom" : <Alert />},
 ]
 
 const Container = styled.div`

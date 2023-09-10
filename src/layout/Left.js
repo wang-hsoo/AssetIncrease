@@ -5,6 +5,7 @@ import { styled } from 'styled-components';
 import User_icon from '../asset/User_icon';
 import Money_icon from '../asset/Money_icon';
 import UseWidhtEvent from '../hook/setWidthEvent';
+import Download_icon from '../asset/Download_icon';
 
 const Container = styled.ul`
     width: 15vw;
@@ -52,7 +53,12 @@ function Left(){
             "path":"/AssetIncrease/increase",
             "route": "inCrease",
             "icon" : <Money_icon />
-        }
+        },
+        {
+            "path":"/AssetIncrease/Download",
+            "route": "Download",
+            "icon" : <Download_icon />
+        },
         // {
         //     "path" : "/menu1",
         //     "route" : "menu1"

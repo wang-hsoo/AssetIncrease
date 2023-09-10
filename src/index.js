@@ -6,6 +6,9 @@ import { Provider } from 'react-redux';
 import store from './state/store';
 import { createGlobalStyle } from "styled-components";
 
+import * as ServiceWorkerRegistration from './serviceWorkerRegistration';
+import reportWebVitals from './reportWebVitals';
+
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
@@ -63,4 +66,6 @@ root.render(
     </Provider>
   </React.StrictMode>
 );
+ServiceWorkerRegistration.register();
 
+reportWebVitals();
