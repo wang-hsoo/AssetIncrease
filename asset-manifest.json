@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/AssetIncrease/static/css/main.da9b1982.css",
-    "main.js": "/AssetIncrease/static/js/main.a5ca8f67.js",
+    "main.js": "/AssetIncrease/static/js/main.91147513.js",
     "static/js/787.3eea9657.chunk.js": "/AssetIncrease/static/js/787.3eea9657.chunk.js",
     "service-worker.js": "/AssetIncrease/service-worker.js",
     "index.html": "/AssetIncrease/index.html",
     "main.da9b1982.css.map": "/AssetIncrease/static/css/main.da9b1982.css.map",
-    "main.a5ca8f67.js.map": "/AssetIncrease/static/js/main.a5ca8f67.js.map",
+    "main.91147513.js.map": "/AssetIncrease/static/js/main.91147513.js.map",
     "787.3eea9657.chunk.js.map": "/AssetIncrease/static/js/787.3eea9657.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da9b1982.css",
-    "static/js/main.a5ca8f67.js"
+    "static/js/main.91147513.js"
   ]
 }
