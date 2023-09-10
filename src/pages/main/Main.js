@@ -23,25 +23,26 @@ function Main(){
     const [userAuth, setAuth] = useState(false);
     const dispatch = useDispatch();
 
-    const Auth = async() => {
-        const user = await getUser()
-        if(user){
-            console.log("사용자인증:::", JSON.stringify(user))
-            dispatch(auth({auth: user}))
-            setTimeout(() => {
-                //테스트를 위한 timeout
-                setAuth(true)
-            }, 2000)
-        }
-    }
+    // const Auth = async() => {
+    //     const user = await getUser()
+    //     if(user){
+    //         console.log("사용자인증:::", JSON.stringify(user))
+    //         dispatch(auth({auth: user}))
+    //         setTimeout(() => {
+    //             //테스트를 위한 timeout
+    //             setAuth(true)
+    //         }, 2000)
+    //     }
+    // }
 
-    useEffect(() => {
-        Auth()
-    },[])
+    // useEffect(() => {
+    //     Auth()
+    // },[])
 
     return(
         <Container>
-            {userAuth ? <Layout />  : <>인증중</>}
+            {/* {userAuth ? <Layout />  : <>인증중</>} */}
+            <Layout />
         </Container>
     )
 }
