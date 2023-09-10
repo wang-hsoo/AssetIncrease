@@ -3,7 +3,6 @@ import Download_icon from "../../asset/Download_icon";
 import { useDispatch } from "react-redux";
 import { path } from "../../state/commonSlice";
 import UseWidhtEvent from "../../hook/setWidthEvent";
-import * as ServiceWorkerRegistration from '../../serviceWorkerRegistration';
 import { useEffect, useState } from "react";
 
 
@@ -105,7 +104,6 @@ function Alert(){
             });
           }   
     }
-
     useEffect(() => {
         Install()
     },[])
@@ -118,6 +116,7 @@ function Alert(){
                         <div onClick={() => Install()}>확인</div>
                         <div onClick={()=> cancel()}>취소</div>
                     </BTN>
+                    <div>* 설치 팝업이 표시되지 않을 경우 설정에 들어가 수동 설치를 진행해 주세요.</div>
                 </Box>
             </Container>
         </Layout>
@@ -125,4 +124,5 @@ function Alert(){
 }
 
 export default Alert;
+
 
